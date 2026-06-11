@@ -9,5 +9,7 @@ spring:
       group-id: midas-core-group
       properties:
         spring.json.trusted.packages: "*"
+server:
+  port: 33400
 general:
   kafka-topic: trader-updates
